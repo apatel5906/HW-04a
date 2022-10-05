@@ -2,7 +2,7 @@
 #The following code is to test the GitApi file.
 
 import unittest
-from githubAPI import get_repos, retrieve_commits
+from GitApi import get_repos, retrieve_commits
 
 
 class TestGitHubAPI(unittest.TestCase):
