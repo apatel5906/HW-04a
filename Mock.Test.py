@@ -4,7 +4,7 @@
 
 """
 from GitApi import get_repos, retrieve_commits
-from unittest import mock
+from unittest.mock import mock
 import unittest
 
 
