@@ -3,11 +3,11 @@ Arpit Patel
 
 """
 from GitApi import get_repos, retrieve_commits
-from unittest import mock
+from unittest.mock import mock
 import unittest
 
 
-class MockGitHubAPI(unittest.TestCase):
+class MockGitApi(unittest.TestCase):
 
     @mock.patch('GitApi.get_repos')
     def mock_get_repos_2(self, mock_repo_names):
